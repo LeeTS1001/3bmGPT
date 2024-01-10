@@ -21,7 +21,7 @@ Please cite the original paper when using or developing this notebook.
   - gen_smi_test.py - To generate ligand SMILES from PDB data
   - get_embedding_v2.py - To collect embedding vectors for PDB data applied to pre-trained 3bmGPT model
   - refine_pdb.py - To refine input PDB data
-- 3bmGPT_Analysis_with_Pre-Trained.R - Running script from input embedding and ligand SMILES
+- 3bmGPT_Analysis_with_Pre_Trained.R - Running script from input embedding and ligand SMILES
 - Pre_Trained_Data.zip
   - Meta_Data_From_Pre_Trained.csv - Meta data from analysis of pre-trained result
   - Normalized_Embedding_From_Pre_Trained.csv - Normalized embedding data from analysis of pre-trained result
@@ -33,6 +33,12 @@ We conducted an in-depth analysis on 10,000 embedding data derived from pre-trai
 The instructions provided entail generating final results for 3bmGPT using the embedded values generated from a specific protein-ligand interaction.
 
 ```shell
-Rscript 3bmGPT_Analysis_with_Pre-Trained.R
+Rscript 3bmGPT_Analysis_with_Pre-Trained.R [normalized_embedding_path] [meta_data_path] [input_embedding_path] [input_smiles_path] [name]
 ```
+Running Example
+```shell
+Rscript 3bmGPT_Analysis_with_Pre-Trained.R /Normalized_Embedding_From_Pre_trained.csv /Meta_Data_From_Pre_Trained.csv /EGFR_5EDQ_embedding_result.txt /EGFR_5EDQ_SMILES.txt EGFR_5EDQ
+```
+
+
 
