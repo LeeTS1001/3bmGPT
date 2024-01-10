@@ -21,4 +21,7 @@ Files description :
   - gen_smi_test.py - To generate ligand SMILES from PDB data
   - get_embedding_v2.py - To collect embedding vectors for PDB data applied to pre-trained 3bmGPT model
   - refine_pdb.py - To refine input PDB data
--  
+-  3bmGPT_Analysis_with_Pre-Trained.R - Running script from input embedding and ligand SMILES
+-  Pre_Trained_Data.zip
+  - Meta_Data_From_Pre_Trained.csv - Meta data from analysis of pre-trained result
+  - Normalized_Embedding_From_Pre_Trained.csv - Normalized embedding data from analysis of pre-trained result
