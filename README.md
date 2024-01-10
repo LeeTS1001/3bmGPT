@@ -32,5 +32,7 @@ Pre-trained model was generated with 60 million interactions containing 18,450 p
 We conducted an in-depth analysis on 10,000 embedding data derived from pre-trained 3bmGPT model to annotate input interaction data.
 The instructions provided entail generating final results for 3bmGPT using the embedded values generated from a specific protein-ligand interaction.
 
-
+```shell
+Rscript 3bmGPT_Analysis_with_Pre-Trained.R
+```
 
