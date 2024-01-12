@@ -2,9 +2,6 @@
 
 Welcome to 3bmGPT github page
 
-
-
-
 Disclaimer:
 This repository is based on the following paper: "3bmGPT: A novel language model for transforming and analyzing protein-ligand binding interactions in drug discovery"
 Please cite the original paper when using or developing this notebook.
