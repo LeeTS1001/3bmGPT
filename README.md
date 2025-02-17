@@ -46,5 +46,4 @@ Rscript 3bmGPT_Analysis_with_Pre-Trained.R /Normalized_Embedding_From_Pre_traine
 This script generates a list of the top 20 closely related interaction data based on the input interaction.
 Comprehensive instructions will be released soon.
 
-Fully functional web-based tool is available at https://3bmgpt.syntekabio.com/
 
