@@ -2,7 +2,7 @@
 
 Welcome to 3bmGPT github page.
 
-This page provides codes for three parts of 3bmGPT: 1) generating input data from the 3D structure of protein-ligand interaction, 2) training the GPT model, and 3) applying newly introduced interaction data. The scripts for training the 3bmGPT model are available, but their direct application is hindered by the extensive dataset and the impracticality of establishing universal running settings. Instead of beginning the training process again, a web-based tool is available for utilizing a pre-trained model in binding interaction analysis. All the scripts for this tool are fully shared on this page. The tool can be accessed through a user-friendly environment at https://3bmgpt.syntekabio.com/.
+This page provides codes for three parts of 3bmGPT: 1) generating input data from the 3D structure of protein-ligand interaction, 2) training the GPT model, and 3) applying newly introduced interaction data. The scripts for training the 3bmGPT model are available, but their direct application is hindered by the extensive dataset and the impracticality of establishing universal running settings. Instead of beginning the training process again, a web-based tool is available for utilizing a pre-trained model in binding interaction analysis. All the scripts for this tool are fully shared on this page.
 
 
 
@@ -20,7 +20,6 @@ Please cite the original paper when using or developing this notebook.
   - data_preprocessing_tokenization.ipynb - To preprocess training data
   - dock_gpt2_train.py - To train GPT2 model
 - Text_Converesion
-  - enva4.5 - Excutable program to generate binding modes from refined PDB data
   - extract_sentence.py - To extract binding modes from interaction results, then converting them into text format
   - gen_smi_test.py - To generate ligand SMILES from PDB data
   - get_embedding_v2.py - To collect embedding vectors for PDB data applied to pre-trained 3bmGPT model
