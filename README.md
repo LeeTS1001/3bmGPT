@@ -14,11 +14,10 @@ Please cite the original paper when using or developing this notebook.
 - Example_Input - Example data to apply to pre-trained 3bmGPT model
   - EGFR_5EDQ_SMILES.txt - SMILES of example ligand
   - EGFR_5EDQ_embedding_result.txt - Example embeddings generated from pre-trained 3bmGPT model
-- GPT_Modelling
-  - bpe_token_train.ipynb - To run BPE tokenizer
-  - create_tokenized_data - To create tokenizer by trained data
-  - data_preprocessing_tokenization.ipynb - To preprocess training data
-  - dock_gpt2_train.py - To train GPT2 model
+- GPT_Model_Training
+  - 1_make_BPE_tokenizer.py - To run BPE tokenizer
+  - 2_make_tokenized_dataset.py - To create tokenized data
+  - 3_training_GPT - To train GPT model from tokenized data  
 - Text_Converesion
   - extract_sentence.py - To extract binding modes from interaction results, then converting them into text format
   - gen_smi_test.py - To generate ligand SMILES from PDB data
