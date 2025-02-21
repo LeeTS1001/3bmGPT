@@ -17,7 +17,7 @@ Please cite the original paper when using or developing this notebook.
 - GPT_Model_Training
   - 1_make_BPE_tokenizer.py - To run BPE tokenizer
   - 2_make_tokenized_dataset.py - To create tokenized data
-  - 3_training_GPT - To train GPT model from tokenized data  
+  - 3_training_GPT.py - To train GPT model from tokenized data  
 - Text_Converesion
   - extract_sentence.py - To extract binding modes from interaction results, then converting them into text format
   - gen_smi_test.py - To generate ligand SMILES from PDB data
