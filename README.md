@@ -19,6 +19,7 @@ Please cite the original paper when using or developing this notebook.
   - 2_make_tokenized_dataset.py - To create tokenized data
   - 3_training_GPT.py - To train GPT model from tokenized data  
 - Text_Converesion
+  - Text_Conversion.exe - To generate text-like interaction results from a PDB file
   - extract_sentence.py - To extract binding modes from interaction results, then converting them into text format
   - gen_smi_test.py - To generate ligand SMILES from PDB data
   - get_embedding_v2.py - To collect embedding vectors for PDB data applied to pre-trained 3bmGPT model
