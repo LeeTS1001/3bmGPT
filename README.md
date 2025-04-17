@@ -21,6 +21,9 @@ Please cite the original paper when using or developing this notebook.
 - Text_Converesion
   - 1_Text_Conversion.exe - To generate text-like interaction results from a PDB file
   - 2_Extract_Sentence.py - To extract binding modes from interaction results, then converting them into text format
+- Model_Application
+  - Logit_Generation.py - To generate logit values from input binding sentences
+  - Word_Generation.py - To generate binding words from input binding sentences
 - 3bmGPT_Analysis_with_Pre_Trained.R - Running script from input logits and ligand SMILES
 - Pre_Trained_Data.zip
   - Meta_Data_From_Pre_Trained.csv - Meta data from analysis of pre-trained result
