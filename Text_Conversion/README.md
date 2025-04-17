@@ -21,5 +21,5 @@ The first step runs via shell script and uses a PDB file as input
 python 2_Extract_Sentences.py [converted_interaction.txt] > [interaction_sentence.txt]
 ```
 
-For the second step, edit '2_Extract_Sentences.py' to set the input path (e.g., 'converted_interaction.txt') directly in the code.
-This will generate an output file like 'interaction_sentence.txt'.
+For the second step, edit `2_Extract_Sentences.py` to set the input path (e.g., `converted_interaction.txt`) directly in the code.
+This will generate an output file like `interaction_sentence.txt`.
