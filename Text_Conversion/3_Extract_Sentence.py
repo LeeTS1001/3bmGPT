@@ -20,4 +20,5 @@ for line in inter_df[0]:
 ### save binding sentence
 combined_str = ' '.join(combined)
 with open("interaction_sentence.txt", "w") as f:
+
     f.write(combined_str)
