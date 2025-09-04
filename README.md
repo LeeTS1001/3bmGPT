@@ -3,7 +3,6 @@
 Welcome to 3bmGPT github page.
 
 This page provides codes for three parts of 3bmGPT: 1) generating input data from the 3D structure of protein-ligand interaction, 2) training the GPT model, and 3) applying newly introduced interaction data. The scripts for training the 3bmGPT model are available, but their direct application is hindered by the extensive dataset and the impracticality of establishing universal running settings. Instead of beginning the training process again, a web-based tool is available for utilizing a pre-trained model in binding interaction analysis. All the scripts for this tool are fully shared on this page.
-For user convenience, a fully functional web-based tool is available at [3bmgpt.syntekabio.com](https://3bmgpt.syntekabio.com/).
 
 
 Disclaimer:
