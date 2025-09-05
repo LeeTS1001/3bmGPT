@@ -14,6 +14,7 @@ The training process follows the numerical order of the script file names:
 
 The required binding data (`/dataset.json` in the code) is derived from the **CrossDocked2020** dataset, available at:  
 🔗 [CrossDocked2020 Repository](https://github.com/gnina/models)  
+The binding data must be converted to a text format. Please refer to the Text_Conversion codes.
 
 ## Step-by-Step Data Generation  
 
