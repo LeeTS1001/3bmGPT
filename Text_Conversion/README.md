@@ -2,7 +2,7 @@
 
 This repository procides a brief guide for generating binding sentences from a PDB file
 
-## Gneration Process
+## Generation Process
 
 The process follows the numerical order of the filenames:
 
