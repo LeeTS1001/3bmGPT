@@ -2,11 +2,10 @@
 
 Welcome to 3bmGPT github page.
 
-This page provides codes for three parts of 3bmGPT: 1) generating input data from the 3D structure of protein-ligand interaction, 2) training the GPT model, and 3) applying newly introduced interaction data. The scripts for training the 3bmGPT model are available, but their direct application is hindered by the extensive dataset and the impracticality of establishing universal running settings. Instead of beginning the training process again, a web-based tool is available for utilizing a pre-trained model in binding interaction analysis. All the scripts for this tool are fully shared on this page.
-
+This page provides codes for three parts of 3bmGPT: 1) generating input data from the 3D structure of protein-ligand interaction, 2) training the GPT model, and 3) applying newly introduced interaction data. The pre-trained 3bmGPT model is available for download at Zenodo (DOI: 10.5281/zenodo.17053575). All scripts for model training and application are provided in this repository.
 
 Disclaimer:
-This repository is based on the following paper: "3bmGPT: A novel language model for transforming and analyzing protein-ligand binding interactions in drug discovery"
+This repository is based on the following paper: "Systematic exploration of small-molecule binding via a large language model trained on textualized protein-ligand interactions"
 Please cite the original paper when using or developing this notebook.
 
 # Files description
